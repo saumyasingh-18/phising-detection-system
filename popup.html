@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phishing Detector</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main class="popup-app" aria-live="polite">
+    <section class="hero">
+      <p class="eyebrow">Realtime protection</p>
+      <h1>Phishing Detector</h1>
+      <p class="subtitle">Analyze your active tab and get quick risk context before you continue browsing.</p>
+    </section>
+
+    <section class="status-card" id="statusCard">
+      <div class="status-head">
+        <span class="status-dot" id="statusDot"></span>
+        <p class="status-label" id="statusLabel">Idle</p>
+      </div>
+
+      <p class="domain" id="domainText">No tab selected</p>
+
+      <div class="meter" aria-hidden="true">
+        <div class="meter-fill" id="meterFill"></div>
+      </div>
+
+      <p class="score" id="scoreText">Risk score unavailable</p>
+      <p class="meta" id="metaText">Waiting for your next scan</p>
+    </section>
+
+    <button id="scanNow" class="scan-btn" type="button">Scan This Tab</button>
+  </main>
+
+  <script src="popup.js"></script>
+</body>
+</html>

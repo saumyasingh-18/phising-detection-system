@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Security Warning</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="background-decorator bg-1"></div>
+<div class="background-decorator bg-2"></div>
+
+<main class="card" role="alert" aria-live="assertive">
+  <svg class="warning-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <path d="M50 10 L90 80 L10 80 Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round"/>
+    <circle cx="50" cy="65" r="3" fill="currentColor"/>
+    <rect x="48" y="40" width="4" height="18" fill="currentColor"/>
+  </svg>
+
+  <h1 id="title">Phishing Website Detected</h1>
+  <p class="subtitle" id="subtitle">This website may steal your personal data.</p>
+
+  <p class="domain" id="domainText">Analyzing URL</p>
+
+  <div class="confidence-indicator">
+    <p id="confidenceText">Risk Level: <span id="riskValue">0</span>%</p>
+  </div>
+
+  <ul id="explanation" class="explanation-list">
+    <li>Loading threat analysis...</li>
+  </ul>
+
+  <div class="button-group">
+    <button id="goBack" type="button" class="btn btn-primary">Go Back</button>
+    <button id="continue" type="button" class="btn btn-secondary">Continue Anyway</button>
+  </div>
+
+  <p class="disclaimer">Do not enter personal information on this site.</p>
+</main>
+
+<script src="warning.js"></script>
+</body>
+</html>

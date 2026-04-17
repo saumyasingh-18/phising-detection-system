@@ -1,0 +1,172 @@
+{
+  "selected": {
+    "threshold": 0.99,
+    "accuracy": 0.9227,
+    "precision": 0.997,
+    "recall": 0.7554,
+    "f1": 0.8596,
+    "fpr": 0.001033
+  },
+  "selection_rule": "min_fpr_with_recall_floor_0.75",
+  "candidate_count": 39,
+  "safe_benchmark": [
+    {
+      "url": "https://github.com",
+      "domain_family": "github.com",
+      "proba": 0.985546,
+      "prediction": 0
+    },
+    {
+      "url": "https://www.google.com/search?q=python",
+      "domain_family": "google.com",
+      "proba": 0.040091,
+      "prediction": 0
+    },
+    {
+      "url": "https://mail.google.com",
+      "domain_family": "google.com",
+      "proba": 0.760698,
+      "prediction": 0
+    },
+    {
+      "url": "https://www.microsoft.com",
+      "domain_family": "microsoft.com",
+      "proba": 0.416368,
+      "prediction": 0
+    },
+    {
+      "url": "https://stackoverflow.com",
+      "domain_family": "stackoverflow.com",
+      "proba": 0.960603,
+      "prediction": 0
+    },
+    {
+      "url": "https://www.amazon.com",
+      "domain_family": "amazon.com",
+      "proba": 0.834706,
+      "prediction": 0
+    },
+    {
+      "url": "https://gmail.com",
+      "domain_family": "gmail.com",
+      "proba": 0.983255,
+      "prediction": 0
+    },
+    {
+      "url": "https://www.youtube.com",
+      "domain_family": "youtube.com",
+      "proba": 0.51644,
+      "prediction": 0
+    },
+    {
+      "url": "https://www.paypal.com",
+      "domain_family": "paypal.com",
+      "proba": 0.503485,
+      "prediction": 0
+    }
+  ],
+  "false_positive_domain_families": {
+    "google.com": 3,
+    "12371.cn": 1,
+    "1st-media.net": 1,
+    "3jidi.com": 1,
+    "42st.com": 1,
+    "43.175": 1,
+    "8csoft.com": 1,
+    "aapcc.org": 1,
+    "adelmanbroadcasting.com": 1,
+    "advanced-science.com": 1,
+    "anniversarygiftsforparents.co.uk": 1,
+    "arne-jacobsen-chair-3107.com": 1,
+    "as204994.net": 1,
+    "asc33.fr": 1,
+    "belmontmeats.com": 1,
+    "blackdot.com": 1,
+    "bratpack.nl": 1,
+    "180.12": 1,
+    "bristolbroadcasting.com": 1,
+    "buschconsulting.com": 1
+  },
+  "top_candidates": [
+    {
+      "threshold": 0.99,
+      "accuracy": 0.9227,
+      "precision": 0.997,
+      "recall": 0.7554,
+      "f1": 0.8596,
+      "fpr": 0.001033
+    },
+    {
+      "threshold": 0.985,
+      "accuracy": 0.9519,
+      "precision": 0.9938,
+      "recall": 0.8517,
+      "f1": 0.9173,
+      "fpr": 0.002422
+    },
+    {
+      "threshold": 0.98,
+      "accuracy": 0.9587,
+      "precision": 0.9919,
+      "recall": 0.8753,
+      "f1": 0.93,
+      "fpr": 0.003245
+    },
+    {
+      "threshold": 0.975,
+      "accuracy": 0.9614,
+      "precision": 0.9904,
+      "recall": 0.8852,
+      "f1": 0.9349,
+      "fpr": 0.003934
+    },
+    {
+      "threshold": 0.97,
+      "accuracy": 0.9629,
+      "precision": 0.9886,
+      "recall": 0.8919,
+      "f1": 0.9378,
+      "fpr": 0.004683
+    },
+    {
+      "threshold": 0.965,
+      "accuracy": 0.9642,
+      "precision": 0.9873,
+      "recall": 0.8973,
+      "f1": 0.9402,
+      "fpr": 0.005249
+    },
+    {
+      "threshold": 0.96,
+      "accuracy": 0.9651,
+      "precision": 0.9863,
+      "recall": 0.901,
+      "f1": 0.9417,
+      "fpr": 0.005704
+    },
+    {
+      "threshold": 0.955,
+      "accuracy": 0.9656,
+      "precision": 0.9851,
+      "recall": 0.9041,
+      "f1": 0.9428,
+      "fpr": 0.006257
+    },
+    {
+      "threshold": 0.95,
+      "accuracy": 0.9662,
+      "precision": 0.984,
+      "recall": 0.9068,
+      "f1": 0.9438,
+      "fpr": 0.006736
+    },
+    {
+      "threshold": 0.945,
+      "accuracy": 0.9668,
+      "precision": 0.9835,
+      "recall": 0.9092,
+      "f1": 0.9449,
+      "fpr": 0.006958
+    }
+  ]
+}

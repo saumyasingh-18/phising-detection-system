@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Safe Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="aura"></div>
+
+<main class="island-wrap">
+  <section class="island" role="status" aria-live="polite">
+    <div class="status-badge" aria-hidden="true">
+      <div class="pulse"></div>
+    </div>
+    <div class="content">
+      <p class="eyebrow">Security Check Complete</p>
+      <div class="title-row">
+        <h1>This website looks safe</h1>
+        <span id="safeScore" class="score">0%</span>
+      </div>
+      <p class="subtitle" id="statusSummary">No major phishing indicators detected.</p>
+      <p class="domain" id="domainText">Analyzing current page</p>
+      <div class="countdown-track" aria-hidden="true">
+        <div id="countdownFill" class="countdown-fill"></div>
+      </div>
+      <p id="countdownText" class="countdown">Opening in 3s</p>
+    </div>
+    <button id="openSite" class="open-btn" type="button">Open Site Now</button>
+  </section>
+</main>
+
+<script src="safe.js"></script>
+</body>
+</html>
