@@ -207,9 +207,8 @@ phishing-detection-system/
 
 ## 👨‍💻 Author
 
-**Ritiz Shukla** *B.Tech in Artificial Intelligence & Machine Learning | Maharana Institute of Professional Studies* * **GitHub:** [@ritizshukla](https://github.com/ritizshukla)
-* **Kaggle:** [rititizshukla](https://www.kaggle.com/ritizshukla)
-* **LinkedIn:** [ritizshukla](https://www.linkedin.com/in/ritiz-shukla/)
+**SAUMYA SINGH** *B.Tech in Computer Science Engineering | Maharana Institute of Professional Studies* * **GitHub:** [@saumyasingh-18](https://github.com/saumyasingh-18)
+* **LinkedIn:** [Saumya Singh](https://www.linkedin.com/in/saumya-singh18)
 
 ---
 
