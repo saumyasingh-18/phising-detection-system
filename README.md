@@ -207,7 +207,7 @@ phishing-detection-system/
 
 ## 👨‍💻 Author
 
-**SAUMYA SINGH** *B.Tech in Computer Science Engineering | Maharana Institute of Professional Studies* * **GitHub:** [@saumyasingh-18](https://github.com/saumyasingh-18)
+**SAUMYA SINGH** *B.Tech in Computer Science Engineering | Maharana Institute of Professional Studies* * **GitHub:** [@Saumya Singh](https://github.com/saumyasingh-18)
 * **LinkedIn:** [Saumya Singh](https://www.linkedin.com/in/saumya-singh18)
 
 ---
